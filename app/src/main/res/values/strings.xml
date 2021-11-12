@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wine Tasting</string>
+    <string name="rate_your_wines">Rate your wines</string>
+    <string name="how_thirsty">How thirsty are you ???</string>
+    <string name="check">Check</string>
+    <string name="amount">Amount</string>
+</resources>
