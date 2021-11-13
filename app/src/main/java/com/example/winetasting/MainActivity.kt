@@ -1,8 +1,6 @@
 package com.example.winetasting
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.winetasting.databinding.ActivityMainBinding
 
@@ -15,9 +13,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val amountButton: Button = binding.buttonCheck
-        amountButton.setOnClickListener{
-            amountBottle()
+        binding.buttonCheck.setOnClickListener{
+            val selectedId = binding.radioGroup1.checkedRadioButtonId
+            binding.amountText.text = when (selectedId) {
+                R.id.activity_main_q1_rb1 -> "Red"
+                R.id.activity_main_q1_rb2 -> "White"
+                else -> "Rose"
+            }
         }
     }
 
@@ -25,8 +27,7 @@ class MainActivity : AppCompatActivity() {
         val bottle = Bottle(6)
         val bottleAmount = bottle.amount()
 
-        val resultTextView: TextView = binding.amountText
-        resultTextView.text = bottleAmount.toString()
+        binding.amountText.text = bottleAmount.toString()
     }
 }
 

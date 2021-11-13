@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">Wine Tasting</string>
     <string name="rate_your_wines">Rate your wines</string>
-    <string name="how_thirsty">How thirsty are you ???</string>
     <string name="check">Check</string>
     <string name="amount">Amount</string>
+
+    <string name="activity_main_q1">What wine would you like to drink ?</string>
+    <string name="activity_main_q1_rb1">Red</string>
+    <string name="activity_main_q1_rb2">White</string>
+    <string name="activity_main_q1_rb3">Rose</string>
+
+    <string name="activity_main_q2">What about the body ?</string>
+    <string name="activity_main_q2_rb1">Light body</string>
+    <string name="activity_main_q2_rb2">Medium body</string>
+    <string name="activity_main_q2_rb3">Full body</string>
+
 </resources>
