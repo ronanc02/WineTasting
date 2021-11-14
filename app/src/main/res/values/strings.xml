@@ -3,6 +3,7 @@
     <string name="rate_your_wines">Rate your wines</string>
     <string name="check">Check</string>
     <string name="amount">Amount</string>
+    <string name="btnRecyclerView">To Recycler View</string>
 
     <string name="activity_main_q1">What wine would you like to drink ?</string>
     <string name="activity_main_q1_rb1">Red</string>

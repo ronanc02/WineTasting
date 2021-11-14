@@ -1,5 +1,6 @@
 package com.example.winetasting
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.winetasting.databinding.ActivityMainBinding
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity() {
                 R.id.activity_main_q1_rb2 -> whiteWineBottle.toString()
                 else -> "Rose"
             }
+        }
+
+        binding.buttonRecyclerView.setOnClickListener {
+            val context = binding.buttonRecyclerView.context
+            val intent = Intent(context, RecyclerViewActivity::class.java)
+            context.startActivity(intent)
         }
     }
 
