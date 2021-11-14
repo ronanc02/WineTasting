@@ -14,4 +14,15 @@
     <string name="activity_main_q2_rb2">Medium body</string>
     <string name="activity_main_q2_rb3">Full body</string>
 
+    <string name="wine1">Wine 1</string>
+    <string name="wine2">Wine 2</string>
+    <string name="wine3">Wine 3</string>
+    <string name="wine4">Wine 4</string>
+    <string name="wine5">Wine 5</string>
+    <string name="wine6">Wine 6</string>
+    <string name="wine7">Wine 7</string>
+    <string name="wine8">Wine 8</string>
+    <string name="wine9">Wine 9</string>
+    <string name="wine10">Wine 10</string>
+
 </resources>
