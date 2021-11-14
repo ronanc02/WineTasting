@@ -1,5 +1,11 @@
 package com.example.winetasting.model
 
-data class Wine(val stringResourceId: Int) {
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+data class Wine(
+    @StringRes val stringResourceId: Int,
+    @DrawableRes val imageResourceId: Int
+    ) {
 
 }
